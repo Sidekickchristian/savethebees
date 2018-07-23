@@ -1,0 +1,24 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1 {
+    color: brown;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(135, 71, 255);
+    font-weight: bold;
+}
+
+button {
+    background-color: aquamarine;
+}
+
+img {
+    width: 350px;
+}
+p {
+    font-style: oblique;
+}

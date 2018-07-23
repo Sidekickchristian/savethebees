@@ -1,12 +1,58 @@
-<html>
-    <body style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
-        <a href="aboutme.html">aboutme</a>
-        <h1 style="color: brown;">save the bees</h1>
-        <p style="font-style: italic;">we want to save the bees</p>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>
+        about
+    </title> 
+    <link rel="stylesheet" type="text/css" href="./styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>save the bees</h1> 
+
+    </header>
+    <nav>
+        <a href="index.html">home</a> |
+        <a href="aboutme.html">about me</a> |
+        <a href="">Form</a> |
+        <a href="">Petition</a>
+
+    </nav>
+    <section>
+        <p"font-style: italic;">we want to save the bees</p>
         <div id="saveit">
             <input id="savewhat" placeholder="what cause" type="text">
-            <button onclick="document.getElementById('saveit').innerText = 'save the ' + document.getElementById('savewhat').value + '!'" style="background-color: aquamarine;">click on the cool button!</button>
+            <button onclick="document.getElementById('saveit').innerText = 'save the ' + document.getElementById('savewhat').value + '!'">click on the cool button!</button>
+        </div>
+    </section>
+    <section>
+        <h2>bees are endangered</h2>
+        <ul class="bee-info">
+            <li>plant more flowers</li>
+            <li>stop jusing pesticides</li>
+            <li>sponsor beehive in community</li>
+        </ul>
+    </section>
+    <section>
+        <h2>image Gallery</h2>
+        <div class="gallery">
+            <img src="./img/bee-flower.jpg" alt="cool bees">
+            <div class="desc">cool bees</div>
+        </div>
+        <div class="gallery">
+            <img src="./img/bee-pollen.jpg" alt="great bees">
+            <div class="desc">great bees</div>
+        </div>
+        <div class="gallery">
+            <img src="./img/bee-smoke.JPG" alt="bees are cool">
+            <div class="desc">bees are cool</div>
         </div>
 
-    </body>
+    </section>
+    <footer><p class="creator">&copy 2018 | Created by Christian Baldninho</p></footer>
+
+</body>
+
 </html>
